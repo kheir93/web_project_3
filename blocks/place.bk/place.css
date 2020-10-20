@@ -1,0 +1,16 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__column/place__column.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__website/place__website.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__link/place__link.css);
+
+.place {
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 984px;
+  min-height: 584px;
+  margin: 0 auto 80px auto;
+}

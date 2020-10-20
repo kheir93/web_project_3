@@ -1,0 +1,21 @@
+.footer__copyright {
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 168px;
+  height: 16px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+/* identical to box height, or 114% */
+}
+
+@media (max-width : 320px) {
+  .footer__copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 1.0;
+    margin-bottom: 0;
+  }
+}

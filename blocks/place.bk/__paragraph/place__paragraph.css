@@ -1,0 +1,14 @@
+.place__paragraph {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+

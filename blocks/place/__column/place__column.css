@@ -1,0 +1,20 @@
+.place__column {
+
+  margin-right: 40px;
+}
+
+.place__column:last-child {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .place__column {
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__column {
+    margin-right: 28px;
+  }
+}

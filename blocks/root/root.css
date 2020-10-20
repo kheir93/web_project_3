@@ -1,0 +1,47 @@
+.root {
+  display: block;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: auto;
+  background-color: #2A2C2F;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  max-width: 1280px;
+  height: 100%;
+  padding-top: 34px;
+}
+
+/*Not in the brief but setup apadted to my hardware*/
+@media (min-width : 1280px) {
+  .root {
+    min-width: 1920px;
+    min-height: 7000px;
+  }
+}
+
+
+@media (max-width : 1024px) {
+  .root {
+    max-width: 1024px;
+    min-height: 7175px;
+  }
+}
+
+@media (max-width : 768px) {
+  .root {
+    max-width: 768px;
+    min-height: 7307px;
+  }
+}
+
+@media (max-width : 320px) {
+  .root {
+    max-width: 320px;
+    min-height: 9991px;
+  }
+}
