@@ -16,14 +16,6 @@
   padding-top: 34px;
 }
 
-/*Not in the brief but setup apadted to my hardware*/
-@media (min-width : 1280px) {
-  .root {
-    min-width: 1920px;
-    min-height: 7000px;
-  }
-}
-
 
 @media (max-width : 1024px) {
   .root {

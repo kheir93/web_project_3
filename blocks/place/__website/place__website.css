@@ -3,9 +3,6 @@
   margin-bottom: 48px;
 }
 
-.place__website:nth-child(2) {
-margin-top: 102px;
-}
 
 @media (max-width: 320px) {
   .place__website {
