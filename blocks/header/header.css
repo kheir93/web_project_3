@@ -2,7 +2,6 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-  border: dashed dodgerblue;
   position: relative;
   display: flex;
   flex-direction: row;

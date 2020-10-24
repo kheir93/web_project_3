@@ -8,6 +8,12 @@
 /* or 107% */
 }
 
+@media (max-width : 1024px) {
+  .intro__title {
+    width: 70%;
+  }
+}
+
 
 
 @media (max-width : 768px) {
