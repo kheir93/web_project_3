@@ -8,6 +8,8 @@
 /* or 107% */
 }
 
+
+
 @media (max-width : 768px) {
   .intro__title {
     margin-left: auto;
@@ -22,8 +24,7 @@
     font-size: 32px;
     line-height: 1.09;
 /* or 109% */
-    margin-left: auto;
-    margin-right: auto;
+
     width: 100%;
   }
 }

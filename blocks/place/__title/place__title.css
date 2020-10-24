@@ -18,7 +18,7 @@
 
 @media (max-width: 320px) {
   .place__title {
-    margin: 0 0 32px;
+    margin: 0 0 32px 16px;
     font-size: 32px;
     line-height: 1.09;
 /* identical to box height, or 109% */

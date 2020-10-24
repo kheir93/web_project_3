@@ -16,7 +16,7 @@
   width: auto;
   padding-left: auto;
   padding-right: auto;
-  height: auto;
+  min-height: auto;
   padding-top: 34px;
 }
 

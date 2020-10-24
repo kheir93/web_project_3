@@ -8,7 +8,6 @@
 .intro {
   margin-right: auto;
   margin-left: auto ;
-
   margin-bottom: 92px;
   align-self: flex-start;
   width: 100vh;
@@ -19,8 +18,7 @@
   .intro {
     margin-left: auto;
     margin-right: auto;
-    width: 720px;
-    max-height: 543px;
+    width: 90%;
     margin-bottom: 88px;
   }
 }
@@ -29,8 +27,7 @@
   .intro {
     margin-left: auto;
     margin-right: auto;
-    width: 288px;
-    min-height: auto;
+    width: 90%;
     margin-bottom: 64px;
   }
 }

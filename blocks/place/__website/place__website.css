@@ -1,7 +1,7 @@
 .place__website {
   justify-content: flex-start;
   margin-bottom: 48px;
-  }
+}
 
 @media (max-width: 320px) {
   .place__website {

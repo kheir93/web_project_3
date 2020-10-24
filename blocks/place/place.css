@@ -7,6 +7,7 @@
 @import url(./__link/place__link.css);
 
 .place {
+
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -18,19 +19,9 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 1024px) {
-  .place {
-    width: 928px;
-    min-height: 564px;
-  }
-}
 
-@media (max-width: 768px) {
-  .place {
-    width: 720px;
-    min-height: 509px;
-  }
-}
+
+
 
 @media (max-width: 320px) {
   .place {

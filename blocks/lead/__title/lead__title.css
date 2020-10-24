@@ -2,7 +2,7 @@
   color: #FFFFFF;
   margin: 0 auto 32px auto;
   width: 720px;
-  height: 200px;
+  height: auto;
   font-weight: 900;
   font-size: 96px;
   line-height: 1.04;
@@ -12,8 +12,8 @@
 
 @media  (max-width : 320px) {
   .lead__title {
-    width: 288px;
-    max-height: 88px;
+    width: 90%;
+    height: auto;
     margin-bottom: 16px;
     font-size: 40px;
     line-height: 1.1;
