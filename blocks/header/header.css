@@ -2,27 +2,18 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
+  border: dashed dodgerblue;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   margin-left: auto;
   margin-right: auto;
-  width: 100vh;
+  width: 90%;
   height: auto;
 }
 
 
 
-@media (max-width: 768px) {
-  .header {
-   width: 90%;
-  }
-}
 
-@media (max-width: 320px) {
-  .header {
-   width: 90%;
-  }
-}
 
