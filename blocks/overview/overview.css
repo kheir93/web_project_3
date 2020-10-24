@@ -1,6 +1,6 @@
 .overview {
   position: relative;
-  max-width: 984px;
+  width: 100vh;
 	display: flex;
 	flex-direction: column;
   margin-left: auto;
@@ -10,21 +10,22 @@
 
 @media (max-width : 1024px) {
   .overview {
-    max-width: 928px;
+
+    width: 100vh;
   }
 }
 
 @media (max-width : 768px) {
   .overview {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 88px;
   }
 }
 
 @media (max-width : 320px) {
   .overview {
-    max-width: 100%;
-    min-height: 1047px;
+    width: 100%;
+    min-height: auto;
     margin-bottom: 64px;
   }
 }

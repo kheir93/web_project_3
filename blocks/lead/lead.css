@@ -4,33 +4,30 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  margin: 58px auto 0 auto;
-  min-width: 90%;
-  max-width: 984px;
-  height: 1005px;
-
+  margin: 58px auto 92px auto;
+  width: 100vh;
+  height: auto;
 }
 
 @media (max-width : 1024px) {
   .lead {
+
     margin-top: 50px;
-    max-width: 928px;
-    height: 962px;
   }
 }
 
 @media (max-width : 768px) {
   .lead {
     margin-top: 50px;
-    max-width: 100%;
-    max-height: 862px;
+    margin-bottom: 88px;
+    width: 100%;
   }
 }
 
 @media (max-width : 320px) {
   .lead {
     margin-top: 50px;
-    width: 320px;
-    height: 406px;
+    margin-bottom: 64px;
+    width: 100%;
   }
 }

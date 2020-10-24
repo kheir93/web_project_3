@@ -1,16 +1,16 @@
 @import url(./__title/place__title.css);
 @import url(./__image/place__image.css);
 @import url(./__column/place__column.css);
-@import url(./__url-heading/place__url-heading.css);
-@import url(./__website/place__website.css);
 @import url(./__paragraph/place__paragraph.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
 @import url(./__link/place__link.css);
 
 .place {
   display: flex;
   flex-direction: row;
-  max-width: 100%;
-  min-height: 584px;
+  width: 100%;
+  min-height: auto;
   margin: 0 auto 80px auto;
 }
 
@@ -20,14 +20,14 @@
 
 @media (max-width: 1024px) {
   .place {
-    max-width: 928px;
+    width: 928px;
     min-height: 564px;
   }
 }
 
 @media (max-width: 768px) {
   .place {
-    max-width: 100%;
+    width: 720px;
     min-height: 509px;
   }
 }
@@ -35,8 +35,8 @@
 @media (max-width: 320px) {
   .place {
     flex-direction: column;
-    max-width: 100%;
-    min-height: 912px;
+    width: 100%;
+    min-height: auto;
     margin-bottom: 48px;
   }
   .place:last-of-type {

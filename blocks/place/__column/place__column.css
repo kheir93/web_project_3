@@ -18,3 +18,9 @@
     margin-right: 28px;
   }
 }
+
+@media (max-width: 320px) {
+  .place__column {
+    margin: 0;
+  }
+}

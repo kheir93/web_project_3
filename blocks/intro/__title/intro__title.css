@@ -1,4 +1,5 @@
 .intro__title {
+  width: 70%;
   margin-top: 0;
   margin-bottom: 40px;
   font-weight: 900;
@@ -7,11 +8,22 @@
 /* or 107% */
 }
 
+@media (max-width : 768px) {
+  .intro__title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
 @media (max-width : 320px) {
   .intro__title {
     text-align: left;
     font-size: 32px;
     line-height: 1.09;
 /* or 109% */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 }

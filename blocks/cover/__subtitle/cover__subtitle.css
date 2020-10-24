@@ -2,7 +2,7 @@
   z-index: 1;
   width: 320px;
   height: 66px;
-  margin: 32px auto auto auto;
+  margin: 32px auto auto;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
@@ -12,9 +12,10 @@
 
 @media (max-width: 320px) {
   .cover__subtitle {
+    width: 288px;
     font-size: 14px;
     line-height: 1.14;
 /* or 114% */
-  margin: 16px auto auto auto;
+  margin: 16px auto auto;
   }
 }

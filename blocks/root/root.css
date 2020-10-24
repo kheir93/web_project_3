@@ -1,3 +1,5 @@
+
+
 .root {
   display: block;
   -moz-osx-font-smoothing: grayscale;
@@ -11,29 +13,28 @@
   font-style: normal;
   font-weight: normal;
   color: white;
-  max-width: 1280px;
-  height: 100%;
+  width: auto;
+  padding-left: auto;
+  padding-right: auto;
+  height: auto;
   padding-top: 34px;
 }
 
 
-@media (max-width : 1024px) {
+@media (max-width: 1024px) {
   .root {
-    max-width: 1024px;
-    min-height: 7175px;
+    width: 1024px;
   }
 }
 
-@media (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .root {
-    max-width: 768px;
-    min-height: 7307px;
+    width: 768px;
   }
 }
 
-@media (max-width : 320px) {
+@media screen and (max-width: 320px) {
   .root {
-    max-width: 320px;
-    min-height: 9991px;
+    width: 320px;
   }
 }

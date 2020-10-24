@@ -14,7 +14,7 @@
   .footer__copyright {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 18px;
     line-height: 1.0;
     margin-bottom: 0;
   }
