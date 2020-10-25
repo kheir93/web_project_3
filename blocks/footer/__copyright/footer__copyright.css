@@ -2,6 +2,7 @@
   margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: right;
   width: 168px;
   height: 16px;
   font-weight: normal;
@@ -12,10 +13,9 @@
 
 @media (max-width : 320px) {
   .footer__copyright {
-    position: absolute;
-    bottom: 0;
-    left: 18px;
+    margin-top: 24px;
+    margin-bottom: 0;
     line-height: 1.0;
-    padding-bottom: 24px;
+    text-align: left;
   }
 }

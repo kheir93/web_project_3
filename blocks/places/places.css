@@ -1,10 +1,11 @@
 .places {
   margin: 0 auto 92px auto;
-  width: 80%;
+  width: 77%;
   min-height: auto;
+  display: grid;
 }
 
-@media  (max-width : 1024px) {
+@media  screen and (max-width : 1024px) {
   .places {
     width: 90%;
   }

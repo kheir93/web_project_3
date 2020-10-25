@@ -10,6 +10,21 @@
   text-align: center;
 }
 
+@media  (max-width : 1024px) {
+  .lead__title {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media  (max-width : 768px) {
+  .lead__title {
+    width: 90%;
+    height: auto;
+  }
+}
+
+
 @media  (max-width : 320px) {
   .lead__title {
     width: 90%;
@@ -18,7 +33,6 @@
     font-size: 40px;
     line-height: 1.1;
     /* or 110% */
-
   }
 }
 

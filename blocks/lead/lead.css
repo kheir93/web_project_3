@@ -5,12 +5,14 @@
 
 .lead {
   margin: 58px auto 92px auto;
-  width: 80%;
+  width: 77%;
   height: auto;
 }
 
 @media (max-width : 1024px) {
   .lead {
+    width: 90%;
+    height: auto;
     margin-top: 50px;
   }
 }

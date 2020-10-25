@@ -8,11 +8,12 @@
   justify-content: flex-end;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 77%;
   height: auto;
 }
 
-
-
-
-
+@media (max-width : 1024px) {
+  .header {
+    width: 90%;
+  }
+}

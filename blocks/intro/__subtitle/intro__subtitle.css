@@ -1,11 +1,13 @@
 .intro__subtitle {
-  width: 80%;
+  width: 70%;
   margin-bottom: 32px;
   font-weight: normal;
   font-size: 24px;
   line-height: 1.42;
   /* or 142% */
 }
+
+
 
 @media (max-width : 768px) {
   .intro__subtitle {

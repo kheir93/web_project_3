@@ -10,13 +10,14 @@
 
 @media  (max-width : 1024px) {
   .lead__subtitle {
-    width: 80%;
+    width: 70%;
     margin-bottom: 56px;
   }
 }
 
 @media  (max-width : 768px) {
   .lead__subtitle {
+    width: 80%;
     margin-bottom: 56px;
   }
 }
