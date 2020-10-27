@@ -3,8 +3,16 @@
 
 .photo-grid {
   margin: 0 auto 92px auto;
-  width: 92%;
+  max-width: 1184px;
   min-height: auto;
+}
+
+@media  (max-width : 1024px) {
+  .photo-grid {
+    margin-top: 88px;
+    margin-bottom: 80px;
+    width: 90%;
+  }
 }
 
 @media  (max-width : 768px) {

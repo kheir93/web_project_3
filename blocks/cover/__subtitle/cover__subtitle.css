@@ -2,12 +2,13 @@
   z-index: 1;
   width: 320px;
   height: 66px;
-  margin: 32px auto auto;
+  margin-top: 32px;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
   /* or 122% */
   text-align: center;
+  color: white;
 }
 
 @media (max-width: 320px) {
@@ -16,6 +17,6 @@
     font-size: 14px;
     line-height: 1.14;
 /* or 114% */
-  margin: 16px auto auto;
+    margin-top: 16px;
   }
 }

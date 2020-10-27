@@ -1,3 +1,4 @@
+<!--Thanks for reviewing my work and for your patience on this project :), I'll be more carefully regarding improvment observations next time, but I'm a bit late on this project.-->
 <!DOCTYPE html>
 <html lang=en>
 
@@ -13,17 +14,20 @@
 <body>
   <div class="root">
     <header class="header">
-      <div class="logo"></div>
-      <a class="header__lang-link header__lang-link_active" href="#">En</a>
-      <a class="header__lang-link" href="#">Es</a>
+      <img class="logo" src="images/logo.svg" alt="logo">
+        <a class="header__lang-link header__lang-link_active" href="#">En</a>
+        <a class="header__lang-link" href="#">Es</a>
     </header>
 
     <main>
       <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
         <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-        <img class="lead__image" src="images/lead-mountains.jpg" alt="mountains">
-        <p class="lead__caption">Your journey starts here</p>
+        <!--margin values setted in normalize.css-->
+        <figure>
+          <img  class="lead__image" src="images/lead-mountains.jpg" alt="mountains">
+          <figcaption class="lead__caption">Your journey starts here</figcaption>
+        </figure>
       </section>
       <section class="intro">
         <h2 class="intro__title">Know the country you live in a little better</h2>
@@ -56,7 +60,7 @@
         <div class="place">
           <h2 class="place__title">Maine</h2>
           <div class=place__website>
-            <h3 class="place__url-heading">url</h3>
+            <p class="place__url-heading">url</p>
             <a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">global.llbean.com</a>
           </div>
             <a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">
@@ -73,7 +77,7 @@
       <div class="place">
           <h2 class="place__title">New Hampshire</h2>
           <div class=place__website>
-            <h3 class="place__url-heading">url</h3>
+            <p class="place__url-heading">url</p>
             <a class="place__link" href="https://www.timberland.com/timberlandpro.html" target="_blank">timberland.com</a>
           </div>
           <a class="place__link" href="https://www.timberland.com/timberlandpro.html" target="_blank">
@@ -91,7 +95,7 @@
       <div class="place">
         <h2 class="place__title">New York</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">url</h3>
+          <p class="place__url-heading">url</p>
           <a class="place__link" href="https://www.ge.com/about-us" target="_blank">ge.com</a>
         </div>
         <a class="place__link" href="https://www.ge.com/about-us" target="_blank">
@@ -107,7 +111,7 @@
       <div class="place">
         <h2 class="place__title">Erie, PA</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">url</h3>
+          <p class="place__url-heading">url</p>
           <a class="place__link" href="https://www.fws.gov/refuge/erie" target="_blank">www.fws.gov</a>
         </div>
           <a class="place__link" href="https://www.fws.gov/refuge/erie" target="_blank">
@@ -124,7 +128,7 @@
       <div class="place">
         <h2 class="place__title">Ohio</h2>
         <div class="place__website">
-          <h3 class="place__url-heading">url</h3>
+          <p class="place__url-heading">url</p>
           <a class="place__link" href="https://www.cedarpoint.com" target="_blank">cedarpoint.com</a>
         </div>
           <a class="place__link" href="https://www.cedarpoint.com" target="_blank">
@@ -141,13 +145,13 @@
         </div>
       </div>
     </section>
-    <section class="cover">
-      <!--URL upadated cause of redirection-->
-      <a href="https://www.nps.gov/subjects/travelroute66/index.htm" target="_blank">
-      <img class="cover__background" src="images/cover-route-66.jpg" alt="Route66"></a>
-      <h2 class="cover__title">Historic Route 66</h2>
-      <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
-    </section>
+      <section class="cover">
+        <link><a class="cover__background" href="https://www.nps.gov/subjects/travelroute66/index.htm" target="_blank" >
+          <h2 class="cover__title">Historic Route 66</h2>
+          <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
+        </a>
+        </link>
+      </section>
     </main>
     <footer class="footer">
       <a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps</a>
