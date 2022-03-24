@@ -1,4 +1,4 @@
-<h1># Project 3: From Portland to Portland #</h1>
+# Project 3: From Portland to Portland #
 
 <h2>Sprint 3</h2>
 <ul>
