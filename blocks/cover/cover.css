@@ -6,8 +6,6 @@
   background-image: url(../../images/cover-route-66.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   max-width: 1184px;
@@ -17,7 +15,6 @@
 .cover:hover {
   opacity: 0.8;
 }
-
 
 @media  (max-width : 1024px) {
   .cover {

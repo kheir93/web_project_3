@@ -6,19 +6,19 @@
   flex-wrap: wrap;
   margin: 92px auto auto;
   padding-bottom: 24px;
-  width: 1184px;
+  max-width: 1184px;
   height: auto;
 }
 
 @media (max-width : 1024px) {
   .footer {
-    width: 928px;
+    width: 90%;
   }
 }
 
 @media (max-width : 768px) {
   .footer {
-    width: 720px;
+    width: 95%;
   }
 }
 

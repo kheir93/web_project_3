@@ -16,6 +16,12 @@
   }
 }
 
+@media (max-width: 640px) {
+  .place__paragraph {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 320px) {
   .place__paragraph {
     width: 90%;
